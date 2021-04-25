@@ -11,12 +11,32 @@
 <body>
     <h1>Forms Tutorial:</h1>
     <form action="/pie">
-        <input><br>
-        <input type="text" placeholder="Username"><br>
-        <input type="password" placeholder="Your password"><br>
-        <input type="color"><br>
-        <input type="number" placeholder="Your number"><br>
-        <input type="time">
+        <label for="username">Enter The username:</label>
+        <input id="username" type="text" placeholder="Username" name="username"><br>
+        <label for="password">Enter The password:</label>
+        <input id="password" type="password" placeholder="Your password" name="password"><br>
+        <label for="color">Choose the color:</label>
+        <input id="color" type="color"><br>
+        <button type="button">Useless Button</button><br>
+        <hr>
+        <label for="Numbers">Enter The age:</label>
+        <input id="Numbers" type=" number" placeholder="Your number"><br>
+        <input type="time"><br>
+        <input type="submit" value="Submit button made by using Input not button element"><br>
+        <button>Submit</button>
+
+        <!-- Google searching:
+        Remember to make a new form and the name attribute should be same as that of the site -->
+
+    </form>
+    <form action="https://www.google.com/search">
+        <input type="text" placeholder="song" name="q">
+        <button>Search google</button>
+    </form>
+    </form>
+    <form action="https://www.youtube.com/results?search_query">
+        <input type="text" placeholder="Search for a song " name="q">
+        <button>Search Youtube</button>
     </form>
 </body>
 
