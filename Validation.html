@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Google searching:
+            Remember to make a new form and the name attribute should be same as that of the site -->
+
+    </form>
+    <form action="https://www.google.com/search">
+        <input type="text" placeholder="song" name="q">
+        <button>Search google</button>
+    </form>
+    </form>
+    <form action="https://www.youtube.com/results">
+        <input type="text" placeholder="Search for a song " name="search_query">
+        <button>Search Youtube</button>
+    </form>
+    <form action="">
+        <input type="checkbox" name="agree" id="agree" checked>
+        <label for="agree">You have to agree to marry me.</label>
+    </form>
+    <form action="/tulips">
+        <label id=r>Wow, radio button 0, huh?</label>
+        <input type="radio" id="r" name="rad" value="Radio 1 selected"><br>
+        <label id=r>Wow, radio button 1, huh?</label>
+        <input type="radio" id="r" name="rad" value="Radio 2 selected"><br>
+        <label id=r>Wow, radio button 2, huh?</label>
+        <input type="radio" id="r" name="rad" value="Radio 3 selected"><br>
+        <label for="m1">What do you prefer to eat?</label>
+        <select name="meal" id="m1">
+            <option value="fish">Fish</option><br>
+            <option value="french fries" selected>Fries</option><br>
+            <option value="pizza">Peeeezah</option><br>
+        </select>
+        <input type="range" id="volume" name="volume" min="0" max="100" step="20">
+        <label for="volume"> Volume</label><br>
+        <label for="tarea">Some text here:</label><br>
+        <textarea id="tarea" rows="10" cols="20" name="text"></textarea>
+        <button>Submit now</button>
+
+    </form>
+    <h2>Validation Demo</h2>
+    <form action="/dummy">
+        <label for="f">Some text here:</label>
+        <input type="text" name="first" id="f" placeholder="Text here" required>
+        <label for="f2">Username here:</label>
+        <input type="text" name="username" id="f2" placeholder="Username here" minlength="5" maxlength="10" required>
+        <label for="e">Email address:</label>
+        <input type="email" name="mail" id="e" required>
+        <label for="u">URL here:</label>
+        <input type="url" name="url" id="u" required>
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>
