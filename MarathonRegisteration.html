@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marathon Registeration Form</title>
+</head>
+
+<body>
+    <h1>Race Registeration!</h1>
+    <form action="/kahitoh">
+        <label for="f">First Name</label>
+        <input type="text" id="f" name="Fname" required>
+        <label for="l">Last Name</label>
+        <input type="text" id="l" name="Lname" required><br>
+        <p>Select a Race:</p>
+
+        <input type="radio" name="rad1" id="s">
+        <label for="s">Fun Run 5k</label><br>
+
+        <input type="radio" name="rad1" id="s2">
+        <label for="s2">Half Marathon</label><br>
+
+        <input type="radio" name="rad1" id="s3">
+        <label for="s3">Full Marathon</label><br>
+
+        <label for="e">Email:</label>
+        <input type="email" name="email" id="e">
+
+        <label for="p">Password:</label>
+        <input type="password" name="p" id="p"><br>
+
+        <label for="s4">Select Age group:</label>
+        <select name="select" id="s4">
+            <option value="-18" checked>Under 18</option>
+            <option value="18-30">18-30</option>
+            <option value="30-50">30-50</option>
+            <option value="50+">Above 50</option>
+        </select><br>
+        <button>Register</button>
+
+    </form>
+</body>
+
+</html>
